@@ -6,12 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app/index.js",
-    "dev": "nodemon app/index.js"
+    "dev": "nodemon app/index.js",
+    "command-test": "node app/index.js test"
   },
   "keywords": [],
   "author": "xhoang",
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.18"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "yargs": "^17.5.1"
   }
 }
